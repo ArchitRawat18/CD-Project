@@ -1,0 +1,7 @@
+[
+  {"type":"KEYWORD","value":"int","line":1,"column":0},
+  {"type":"IDENTIFIER","value":"x","line":1,"column":4},
+  {"type":"OPERATOR","value":"=","line":1,"column":6},
+  {"type":"NUMBER","value":"5","line":1,"column":8},
+  {"type":"SYMBOL","value":";","line":1,"column":9}
+]

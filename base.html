@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexer & Parser Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code Lexer and Parser</h1>
+        
+        <!-- Input Area -->
+        <div>
+            <textarea id="code-input" placeholder="Enter your code here..." rows="10" cols="50"></textarea>
+            <button onclick="processCode()">Process Code</button>
+        </div>
+
+        <!-- Error Message Area -->
+        <div id="error-message" style="color: red; display: none;"></div>
+
+        <!-- Token Stream -->
+        <h2>Token Stream:</h2>
+        <div id="token-stream">
+            <!-- Tokens will be displayed here -->
+        </div>
+
+        <!-- Parse Tree -->
+        <h2>Parse Tree:</h2>
+        <div id="parse-tree">
+            <!-- Parse tree will be displayed here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
